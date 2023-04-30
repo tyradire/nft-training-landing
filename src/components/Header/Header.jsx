@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useWindowSize } from '../../hooks/useWindowSize';
-import { LogoIcon } from '../LogoIcon';
+import { LogoIcon } from '../../UI/LogoIcon';
 import './Header.scss';
 
 export const Header = () => {

@@ -185,7 +185,7 @@
 
   &__popup {
     position: fixed;
-    top: calc(50% - 212.5px);
+    top: 225px;
     left: calc(50% - 335px);
     width: 471px;
     height: 369px;
@@ -230,8 +230,8 @@
   &__close-btn {
     cursor: pointer;
     position: absolute;
-    top: 45px;
-    right: 51px;
+    top: 44px;
+    right: 46px;
     background-color: transparent;
     border: none;
     z-index: 5;
@@ -255,6 +255,7 @@
     }
   }
   &__description {
+    width: 450px;
     text-align: start;
     margin: 0;
     margin-top: 25px;

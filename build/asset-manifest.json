@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/nft-training/static/css/main.fb3205d9.css",
-    "main.js": "/nft-training/static/js/main.db623608.js",
-    "static/js/787.36603a8a.chunk.js": "/nft-training/static/js/787.36603a8a.chunk.js",
-    "static/media/man.png": "/nft-training/static/media/man.ce7ab9f4e0da50011dfa.png",
-    "static/media/man-sm.png": "/nft-training/static/media/man-sm.04829c397c66393752db.png",
-    "static/media/GTWalsheimPro.ttf": "/nft-training/static/media/GTWalsheimPro.1fd3cd7ade0f79b2152a.ttf",
-    "static/media/GTWalsheimPro.woff": "/nft-training/static/media/GTWalsheimPro.1668df1c1c97770e0490.woff",
-    "static/media/smile1.png": "/nft-training/static/media/smile1.129e32b2046a2ac0cb6a.png",
-    "static/media/GTWalsheimPro.woff2": "/nft-training/static/media/GTWalsheimPro.6aff6f11d3d29930c9fe.woff2",
-    "static/media/smile3.png": "/nft-training/static/media/smile3.78f9cc103dc8fa2ada63.png",
-    "static/media/smile2.png": "/nft-training/static/media/smile2.b58d066dfe5f58c257cd.png",
-    "static/media/smile4.png": "/nft-training/static/media/smile4.ea3a2b474f569aae5486.png",
-    "index.html": "/nft-training/index.html",
-    "main.fb3205d9.css.map": "/nft-training/static/css/main.fb3205d9.css.map",
-    "main.db623608.js.map": "/nft-training/static/js/main.db623608.js.map",
-    "787.36603a8a.chunk.js.map": "/nft-training/static/js/787.36603a8a.chunk.js.map"
+    "main.css": "/nft-training-landing/static/css/main.42ad1bea.css",
+    "main.js": "/nft-training-landing/static/js/main.7b993448.js",
+    "static/js/787.f7919873.chunk.js": "/nft-training-landing/static/js/787.f7919873.chunk.js",
+    "static/media/man.png": "/nft-training-landing/static/media/man.ce7ab9f4e0da50011dfa.png",
+    "static/media/man-sm.png": "/nft-training-landing/static/media/man-sm.04829c397c66393752db.png",
+    "static/media/GTWalsheimPro.ttf": "/nft-training-landing/static/media/GTWalsheimPro.1fd3cd7ade0f79b2152a.ttf",
+    "static/media/GTWalsheimPro.woff": "/nft-training-landing/static/media/GTWalsheimPro.1668df1c1c97770e0490.woff",
+    "static/media/smile1.png": "/nft-training-landing/static/media/smile1.129e32b2046a2ac0cb6a.png",
+    "static/media/GTWalsheimPro.woff2": "/nft-training-landing/static/media/GTWalsheimPro.6aff6f11d3d29930c9fe.woff2",
+    "static/media/smile3.png": "/nft-training-landing/static/media/smile3.78f9cc103dc8fa2ada63.png",
+    "static/media/smile2.png": "/nft-training-landing/static/media/smile2.b58d066dfe5f58c257cd.png",
+    "static/media/smile4.png": "/nft-training-landing/static/media/smile4.ea3a2b474f569aae5486.png",
+    "index.html": "/nft-training-landing/index.html",
+    "main.42ad1bea.css.map": "/nft-training-landing/static/css/main.42ad1bea.css.map",
+    "main.7b993448.js.map": "/nft-training-landing/static/js/main.7b993448.js.map",
+    "787.f7919873.chunk.js.map": "/nft-training-landing/static/js/787.f7919873.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fb3205d9.css",
-    "static/js/main.db623608.js"
+    "static/css/main.42ad1bea.css",
+    "static/js/main.7b993448.js"
   ]
 }
