@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/nft-training-landing/static/css/main.42ad1bea.css",
-    "main.js": "/nft-training-landing/static/js/main.7b993448.js",
+    "main.css": "/nft-training-landing/static/css/main.ade0cf4c.css",
+    "main.js": "/nft-training-landing/static/js/main.dfdf93c1.js",
     "static/js/787.f7919873.chunk.js": "/nft-training-landing/static/js/787.f7919873.chunk.js",
     "static/media/man.png": "/nft-training-landing/static/media/man.ce7ab9f4e0da50011dfa.png",
     "static/media/man-sm.png": "/nft-training-landing/static/media/man-sm.04829c397c66393752db.png",
@@ -13,12 +13,12 @@
     "static/media/smile2.png": "/nft-training-landing/static/media/smile2.b58d066dfe5f58c257cd.png",
     "static/media/smile4.png": "/nft-training-landing/static/media/smile4.ea3a2b474f569aae5486.png",
     "index.html": "/nft-training-landing/index.html",
-    "main.42ad1bea.css.map": "/nft-training-landing/static/css/main.42ad1bea.css.map",
-    "main.7b993448.js.map": "/nft-training-landing/static/js/main.7b993448.js.map",
+    "main.ade0cf4c.css.map": "/nft-training-landing/static/css/main.ade0cf4c.css.map",
+    "main.dfdf93c1.js.map": "/nft-training-landing/static/js/main.dfdf93c1.js.map",
     "787.f7919873.chunk.js.map": "/nft-training-landing/static/js/787.f7919873.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.42ad1bea.css",
-    "static/js/main.7b993448.js"
+    "static/css/main.ade0cf4c.css",
+    "static/js/main.dfdf93c1.js"
   ]
 }
