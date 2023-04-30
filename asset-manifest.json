@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/nft-training-landing/static/css/main.7535d2b9.css",
+    "main.css": "/nft-training-landing/static/css/main.3b2bb6b2.css",
     "main.js": "/nft-training-landing/static/js/main.d50b433c.js",
     "static/js/787.f7919873.chunk.js": "/nft-training-landing/static/js/787.f7919873.chunk.js",
     "static/media/man.png": "/nft-training-landing/static/media/man.f8316eed58c091d7a067.png",
@@ -9,12 +9,12 @@
     "static/media/GTWalsheimPro.woff2": "/nft-training-landing/static/media/GTWalsheimPro.6aff6f11d3d29930c9fe.woff2",
     "static/media/man-sm.png": "/nft-training-landing/static/media/man-sm.b7207a026d21a6c6a7d1.png",
     "index.html": "/nft-training-landing/index.html",
-    "main.7535d2b9.css.map": "/nft-training-landing/static/css/main.7535d2b9.css.map",
+    "main.3b2bb6b2.css.map": "/nft-training-landing/static/css/main.3b2bb6b2.css.map",
     "main.d50b433c.js.map": "/nft-training-landing/static/js/main.d50b433c.js.map",
     "787.f7919873.chunk.js.map": "/nft-training-landing/static/js/787.f7919873.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7535d2b9.css",
+    "static/css/main.3b2bb6b2.css",
     "static/js/main.d50b433c.js"
   ]
 }
