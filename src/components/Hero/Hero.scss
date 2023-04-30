@@ -263,6 +263,7 @@
     @include popup-description;
 
     @media screen and (max-width: 768px) {
+      width: 273px;
       @include popup-description-mobile;
     }
   }
