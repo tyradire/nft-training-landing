@@ -1,0 +1,136 @@
+@mixin button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+@mixin button-action {
+  font-family: 'GT Walsheim Pro';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+@mixin button-action-mobile {
+  font-family: 'GT Walsheim Pro';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+@mixin title {
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 76px;
+  letter-spacing: -0.03em;
+}
+
+@mixin title-medium {
+  font-weight: 400;
+  font-size: 52px;
+  line-height: 55px;
+  letter-spacing: -0.03em;
+}
+
+@mixin title-tablet {
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 48px;
+  letter-spacing: -0.03em;
+}
+
+@mixin title-mobile {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 26px;
+  letter-spacing: -0.03em;
+}
+
+@mixin title-advantages {
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 58px;
+}
+
+@mixin title-advantages-mobile {
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 30px;
+}
+
+@mixin middle-text {
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 28px;
+}
+
+@mixin middle-text-tablet {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+@mixin description-mobile {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+@mixin card-description {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 25px;
+  letter-spacing: -0.7px;
+}
+
+@mixin card-description-mobile {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: -0.7px;
+}
+
+@mixin popup-title {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 47px;
+  letter-spacing: -0.03em;
+}
+
+@mixin popup-title-medium {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 41px;
+  letter-spacing: -0.03em;
+}
+
+@mixin popup-title-mobile {
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 29.9px;
+}
+
+@mixin popup-description {
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 25px;
+}
+
+@mixin popup-description-mobile {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.6px;
+}
+
+@mixin button-text {
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+@mixin popup-input-mobile {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.36px;
+}

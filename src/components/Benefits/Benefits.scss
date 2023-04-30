@@ -1,0 +1,196 @@
+@import '../../sass/variables.scss';
+@import '../../sass/mixins.scss';
+
+.benefits {
+  position: relative;
+  max-width: 1284px;
+  height: 1093px;
+  margin: 0 auto;
+  margin-top: 195px;
+  background: linear-gradient(212.69deg, #323E51 4.9%, #1D2532 55.16%);
+  border-radius: 20px;
+
+  &__title {
+    margin: 0;
+    padding-top: 130px;
+    color: $white;
+    @include title-advantages;
+
+    @media screen and (max-width: 768px) {
+      padding-top: 40px;
+      max-width: 180px;
+      margin: 0 auto;
+      @include title-advantages-mobile;
+    }
+  }
+  &__list {
+    margin: 0;
+    margin-top: 65px;
+    display: grid;
+    justify-content: center;
+    list-style: none;
+    gap: 70px 50px;
+    padding-left: 0;
+    grid-template-columns: repeat(2, 300px);
+    grid-auto-rows: 310px;
+
+    @media screen and (max-width: 768px) {
+      margin-top: 27px;
+      grid-template-columns: 260px;
+      grid-auto-rows: 273px;
+      gap: 54px 0;
+    }
+  }
+  &__item {
+    position: relative;
+    background: rgba(51, 62, 81, 0.7);
+    border-radius: 20px;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: -20px;
+      left: 20px;
+      width: 260px;
+      height: 20px;
+      background: rgba(51, 62, 81, 0.6);
+      border-radius: 0 0 20px 20px;
+      z-index: -1;
+    }
+
+    @media screen and (max-width: 768px) {
+      &::after {
+        width: 226px;
+        height: 17px;
+        bottom: -17px;
+        left: 17px;
+      }
+    }
+  }
+  &__image {
+    margin-top: 20px;
+    width: 162px;
+    height: 162px;
+
+    @media screen and (max-width: 768px) {
+      margin-top: 28px;
+      width: 128px;
+      height: 128px;
+    }
+  }
+  &__description {
+    margin: 0;
+    color: $white;
+    @include card-description;
+
+    @media screen and (max-width: 768px) {
+      width: 216px;
+      padding-bottom: 42px;
+      @include card-description-mobile;
+    }
+  }
+
+  &__sphere {
+    position: absolute;
+    border-radius: 50%;
+
+    &_violet {
+      top: -93px;
+      right: 118px;
+      width: 152px;
+      height: 152px;
+      background: radial-gradient(95.38% 95.38% at 50.77% 4.62%, #DEA8FF 0%, #9D6AD9 44.51%, #7A2BF6 100%);
+      transform: rotate(-25.73deg);
+
+      @media screen and (max-width: 768px) {
+        width: 90px;
+        height: 90px;
+        right: -34px;
+        top: -50px;
+      }
+    }
+    &_blue {
+      top: 111px;
+      left: 172px;
+      width: 84px;
+      height: 84px;
+      background: radial-gradient(63.25% 73.53% at 65.32% 77.65%, #045DFA 0%, #0FC1D7 83.16%, #06F6C7 100%);
+      transform: rotate(7.77deg);
+      @media screen and (max-width: 1280px) {
+        left: 22px;
+        width: 60px;
+        height: 60px;
+      }
+      @media screen and (max-width: 768px) {
+        width: 22px;
+        height: 22px;
+        left: 22px;
+        top: 104px;
+      }
+    }
+    &_blur {
+      bottom: 130px;
+      right: 164px;
+      width: 132px;
+      height: 132px;
+      background: radial-gradient(95.38% 95.38% at 50.77% 4.62%, #DEA8FF 0%, #9D6AD9 44.51%, #7A2BF6 100%);
+      filter: blur(12px);
+      transform: rotate(-25.73deg);
+
+      @media screen and (max-width: 1280px) {
+        bottom: 32px;
+        right: 62px;
+        width: 104px;
+        height: 104px;
+      }
+      @media screen and (max-width: 768px) {
+        width: 76px;
+        height: 76px;
+        bottom: 20px;
+        right: 20px;
+      }
+    }
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: -40px;
+    right: 0;
+    width: 440px;
+    height: 440px;
+    background: linear-gradient(170.98deg, rgba(95, 56, 255, 0.25) 25.59%, rgba(255, 14, 222, 0.25) 100.44%);
+    filter: blur(86px);
+    transform: rotate(11.97deg);
+  }
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: 20px;
+    left: 5px;
+    width: 440px;
+    height: 440px;
+    background: linear-gradient(170.98deg, rgba(95, 56, 255, 0.25) 25.59%, rgba(255, 14, 222, 0.25) 100.44%);
+    filter: blur(86px);
+    transform: rotate(11.97deg);
+  }
+
+  @media screen and (max-width: 768px) {
+    margin-top: 70px;
+    border-top-right-radius: 0;
+    height: auto;
+    padding-bottom: 152px;
+    &::after {
+      display: none;
+    }
+    &::before {
+      width: 137px;
+      height: 137px;
+      background: linear-gradient(170.98deg, rgba(95, 56, 255, 0.55) 25.59%, rgba(255, 14, 222, 0.55) 100.44%);
+    }
+  }
+}

@@ -1,0 +1,22 @@
+@import './sass/variables.scss';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+@font-face {
+  font-family: 'GT Walsheim Pro';
+  src: url('./fonts/GTWalsheimPro/GTWalsheimPro.woff2') format('woff2'),
+       url('./fonts/GTWalsheimPro/GTWalsheimPro.woff') format('woff'),
+       url('./fonts/GTWalsheimPro/GTWalsheimPro.ttf') format('ttf');
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: $white;
+}
+
+code {
+  font-family: 'Inter', sans-serif;
+}
+

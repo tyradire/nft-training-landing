@@ -1,0 +1,18 @@
+@import './sass/variables.scss';
+
+.app {
+  text-align: center;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $main-bg;
+}
+
+.disable-scroll {
+  overflow-y: hidden;
+}
